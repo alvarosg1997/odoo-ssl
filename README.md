@@ -120,7 +120,7 @@ Para ver los contenedores puede ejecutar el siguiente comando.
 
 Como ha recibido el certificado SSL de Let's Encrypt, puede configurar HTTPS y configurar la redirección a HTTPS.
 
-Edite  `default.conf` y realice los siguientes cambios.
+cree un archivo nuevo para ssl , cree una copia de el antiguo `default.conf` y renombralo como `default.conf.sinssl` y realice los siguientes cambios. que tendras en el archivo `default.conf.ssl` y este renombralo como `default.conf`
 
 ``` bash
 sudo nano nginx/conf/default.conf
